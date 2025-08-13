@@ -62,7 +62,7 @@ on:
       kernel_toolchain:
         description: "Select the compilation toolchain"
         required: false
-        default: "gcc"
+        default: "gcc-14.3"
         type: choice
         options:
           - clang
